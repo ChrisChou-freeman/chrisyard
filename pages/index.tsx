@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
-import ButtonComponent from '../components/button'
+import ProductButton from '../components/button'
 
 const buttonList: string[] = [
 	'🎧 White Noise(macOS app)',
@@ -14,7 +14,9 @@ function Home(): JSX.Element {
         <title>{siteTitle}</title>
       </Head>
 			<div className="flex flex-col items-center justify-center mt-2">
-				{buttonList.map((name) => {return <ButtonComponent name={name}/>})}
+				{buttonList.map((name, index) => {
+					return <ProductButton name={name} key={index}/>
+				})}
 			</div>
     </Layout>
   );
