@@ -10,4 +10,3 @@ export interface InformationTitle {
 	name: string;
 	subTitle: IconNameLink[];
 }
-

@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import ProductButton from '../components/button'
 import InformationTitleComponent from '../components/informationTitle'
-import {InformationTitle } from '../module/title'
+import {InformationTitle} from '../module/title'
 import {getCurrentYear} from '../lib/tools'
 
 const buttonList: string[] = [
@@ -17,7 +17,7 @@ const informationTitle: InformationTitle[] = [
 			{name: `👨male, ${getCurrentYear() - 1995}`, icon: '', link: '', isLink: false},
 			{name: '🇨🇳from China GanZhou', icon: '', link: '', isLink: false},
 			{name: '😿freelancer(nearly homeless)', icon: '', link: '', isLink: false},
-			{name: '👨‍💻programmer', icon: '', link: '', isLink: false},
+			{name: '👨‍💻programmer(i guess)', icon: '', link: '', isLink: false},
 		]
 	},
 	{
