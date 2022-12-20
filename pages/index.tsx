@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
+import Head from 'next/head'
+import Layout, { siteTitle } from '../components/layout'
 import ProductButton from '../components/button'
 import InformationTitleComponent from '../components/informationTitle'
 import {InformationTitle} from '../module/title'
@@ -35,7 +35,7 @@ const informationTitle: InformationTitle[] = [
 			{name: '💾Github', icon: '', link: 'https://github.com/ChrisChou-freeman', isLink: true}
 		]
 	}
-];
+]
 
 function Home(): JSX.Element {
   return (
@@ -54,7 +54,7 @@ function Home(): JSX.Element {
 			})}
 			</div>
     </Layout>
-  );
+  )
 }
 
 export default Home

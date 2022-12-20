@@ -1,12 +1,12 @@
 
 export interface IconNameLink {
-	name: string;
-	icon: string;
-	link: string;
-	isLink: boolean;
+	name: string
+	icon: string
+	link: string
+	isLink: boolean
 }
 
 export interface InformationTitle {
-	name: string;
-	subTitle: IconNameLink[];
+	name: string
+	subTitle: IconNameLink[]
 }
